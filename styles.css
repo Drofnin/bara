@@ -1,0 +1,63 @@
+
+      
+body {
+    background-color: rgba(255, 99, 221, 0.928);
+}
+h1 {
+    text-align:left;
+    font-family:"Lucida Handwriting", Brush Script MT;
+    font-size: 70px;
+    color: rgba(2, 0, 2, 0.918);
+    margin:3px;
+    width:fit-content;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin:3px;
+    height: 70px;
+}
+.slogan {
+    
+    text-align: right;
+    width:fit-content;
+    display: inline-block;
+
+}
+    
+.myndir{
+    margin: 10px;
+
+}
+
+.hlekkur{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper {
+    display: flex;
+   align-items: center ;
+   justify-content: space-between;
+   
+}
+a {
+    color: black;
+    margin: 25px;
+    text-decoration: none;
+    padding-bottom: 50px;
+    margin: 50px;
+    font-size: 30px;
+}
+
+/*in section a i found easier to take off text decoration instead of using the wrapper-*/ 
+
+a:hover, a:active {
+  
+  color: white;
+}
